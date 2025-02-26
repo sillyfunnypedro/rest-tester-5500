@@ -52,6 +52,16 @@
             "console": "integratedTerminal",
             "justMyCode": false,
             "pythonPath": "${workspaceFolder}/src/servers/python-server/venv/bin/python"
+        },
+        // debug Python tests
+        {
+            "name": "python doc",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/servers/python-server/doc.py",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "pythonPath": "${workspaceFolder}/src/servers/python-server/venv/bin/python"
         }
     ]
 }
